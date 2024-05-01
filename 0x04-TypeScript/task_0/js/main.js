@@ -13,7 +13,7 @@ var student2 = {
 var studentsList = [student1, student2];
 var table = document.createElement('table');
 var tbody = document.createElement('tbody');
-table.style.background = "pink";
+table.style.background = "blue";
 table.appendChild(tbody);
 studentsList.forEach(function (student) {
     var row = document.createElement('tr');
